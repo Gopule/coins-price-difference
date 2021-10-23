@@ -6,3 +6,9 @@ export const checkPrices = (coinbase, binance) => {
   else if (coinbase < binance) return <FaLessThan />;
   else return <FaEquals />;
 };
+
+export const checkStyle = (difference) => {
+  if (difference > 0) return "greater";
+  else if (difference < 0) return "lesser";
+  else return "equal";
+};
