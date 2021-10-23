@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start-server & npm run build-watch",
+    "start": "npm run start-server & npm run build",
     "start-server": "nodemon --watch server -e js,html server/main.js",
-    "build-watch": "webpack -w"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
