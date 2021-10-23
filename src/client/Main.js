@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import {
+  checkPrices,
+  checkStyle,
+  generateSentence,
+} from "../helperFuncs/helperFunctions";
 import Exchanges from "./Exchanges";
+import Bitcoin from "./Bitcoin";
+import Ethereum from "./Ethereum";
 
 const Main = () => {
   const [coinbase, setCoinbase] = useState({});
