@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Exchanges from "./Exchanges";
 
 const Main = () => {
   const [coinbase, setCoinbase] = useState({});
@@ -20,7 +21,15 @@ const Main = () => {
     getData();
   }, []);
 
-  return <div></div>;
+  return (
+    <div>
+      {coinbase.BTC && (
+        <div>
+          <Exchanges />
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default Main;
