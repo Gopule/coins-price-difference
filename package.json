@@ -15,10 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gopule/coins-price-difference/issues"
-  },
-  "homepage": "https://github.com/Gopule/coins-price-difference#readme",
   "dependencies": {
     "express": "^4.17.1",
     "react-icons": "^4.3.1"
