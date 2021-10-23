@@ -5,7 +5,7 @@ module.exports = app;
 
 app.use(express.static(path.join(__dirname, "..", "public")));
 
-// app.use("/api", require("./api"));
+app.use("/api", require("./api"));
 
 app.use((req, res, next) => {
   if (path.extname(req.path).length > 0) {
