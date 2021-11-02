@@ -1,6 +1,6 @@
 This application dynamically displays and differentiates the prices of Bitcoin and Ethereum from Coinbase and Binance
 
-![Alt text](public/app-shot.png?raw=true "Title")
+![Alt text](public/app-shot.png?raw=true "coin-price-difference")
 
 ## Setup
 
