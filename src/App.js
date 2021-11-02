@@ -1,15 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import {
-  checkPrices,
-  checkStyle,
-  generateSentence,
-} from "../helperFuncs/helperFunctions";
-import Exchanges from "./Exchanges";
-import Bitcoin from "./Bitcoin";
-import Ethereum from "./Ethereum";
+import { checkPrices, checkStyle, generateSentence } from "./helper/helper";
+import Exchanges from "./client/Exchanges";
+import Bitcoin from "./client/Bitcoin";
+import Ethereum from "./client/Ethereum";
 
-const Main = () => {
+const App = () => {
   const [coinbase, setCoinbase] = useState({});
   const [binance, setBinance] = useState({});
 
@@ -55,4 +51,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default App;
