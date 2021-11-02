@@ -15,6 +15,8 @@ This application dynamically displays and differentiates the prices of Bitcoin a
 - `npm run build` to start the webpack process
 - Open another terminal window; from there, `npm run start-server` to start the server process
 
+https://codesandbox.io/s/m8wsp
+
 ## Questions
 
 - I chose to manually write out the divs for each comparison block, if I had a larger data set I would map through the data and make sure the information was displayed in a more dynamic way
